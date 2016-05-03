@@ -294,18 +294,233 @@ section#VrImgNav .VrImgNav_Img ul li.VrImgNav_Img_Second {
 article {
     width: 100%;
     height: auto;
-    margin-top: 20px;
-    border: 1px solid #761c19
+    margin-top: 3em;
+    /*border: 1px solid #761c19*/
 }
 
 article .article_Img {
-    width: inherit;
+    position: relative;
+    width: 1141px;
     height: auto;
-    margin: 2.0em 47% 0px 53%;
-    border: 1px solid #1b961b;
+    margin: 2.0em auto;
+    /*border: 1px solid #1b961b;*/
+}
+
+article .article_Img ul{
+    width: inherit;
+    margin: 0px auto;
 }
 
 article .article_Img ul li{
     display: inline-block;
+    width: 262px;
+    height: 197px;
+    margin-left: 15px;
+}
+
+article .article_Img ul li a{
+    display: inline-block;
+
+}
+
+article .article_Img ul li a img{
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+article .article_News{
+    width: 1141px;
+    height: 231px;
+    margin: 0px auto;
+    /*border: 1px solid #0b76ac;*/
+}
+
+article .article_News h2{
+    font-size: 1.5em;
+    color: #19b8cd;
+    padding-left: 12px;
+    float: left;
+}
+
+article .article_News b{
+   margin-left: 16px;
+    float: left;
+    /*border: 1px solid #0b76ac;*/
+}
+
+article .article_News .arrow{
+    float: left;
+    width: 90px;
+    color: #dddddd;
+    margin-left: 15px;
+}
+
+article .article_News .article_nav{
+    width: 863px;
+    height: 231px;
+    float: left;
+    /*border: 1px solid #1b961b;*/
+}
+
+article .article_News .article_nav .article_Content{
+    width: inherit;
+    height: 193px;
+    float: left;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 15px;
+    /*border: 1px solid #0a628f;*/
+}
+
+article .article_News .article_nav .article_Content .article_nullContainer{
+    width: 99999999px;;
+    height: auto;
+    /*border: 1px solid #1b961b;*/
+}
+
+article .article_News .article_nav .article_Content li{
+    float: left;
+    width: 262px;
+    height: 193px;
+    margin-right: 25px;
+}
+
+article .article_News .article_nav .article_Content li a{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0.8em;
+    color: black;
+}
+
+article .article_News .article_nav .article_Content li a:hover{
+    color: red;
+}
+
+article .article_News .article_nav .article_Content li p{
+    margin-top: 1.3em;
+    font-size: 0.9em;
+    color: #8c8c8c;
+}
+
+article .article_News .article_twitter{
+    width: 278px;
+    height: inherit;
+    float: left;
+    /*border: 1px solid #1b961b;*/
+}
+
+article .article_News .twitter_line{
+    width: 84px;
+    overflow: hidden;
+}
+
+article .article_News .article_twitter .twitter_arrow{
+    width: 80px;
+    padding-left: 20px;
+    /*border: 1px solid #1b961b;*/
 }
 /*article区域结束*/
+
+/*footer区域开始*/
+footer{
+    width: 100%;
+    height: 243px;
+    margin-top: 4.0em;
+    background-color: #f7f7f7;
+    /*border: 1px solid #1b961b;*/
+}
+
+footer #footer_content{
+    width: 1141px;
+    height: 158px;
+    margin: 0px auto;
+    overflow: hidden;
+    /*border: 1px solid #0a628f;*/
+}
+
+footer .footer_navigation{
+    width: 281px;
+    height: inherit;
+    margin-left: 15px;
+    margin-top: 25px;
+    float: left;
+    border-right: 2px solid #b8b8b8;
+}
+
+footer h2.footer_commentTitle{
+    font-size: 1.5em;
+    color: #19b8cd;
+}
+
+footer .footer_navigation ul li{
+    margin: 0.6em auto;
+}
+
+footer .footer_navigation ul li a{
+    font-size: 1.2em;
+    color: #ababab;
+}
+footer .footer_follow{
+    float: left;
+    width: 557px;
+    height: 158px;
+}
+
+footer .footer_follow .footer_follow_content{
+    border-right: 2px solid #b8b8b8;
+    margin-top: 25px;
+    margin-left: 50px;
+    /*border: 1px solid #000000;*/
+}
+
+footer .footer_follow .footer_follow_content .row{
+    margin-top: 0.6em;
+}
+
+footer .footer_follow .footer_follow_content .row .form-control{
+    border: none;
+    width: 180px;
+}
+
+footer .footer_follow .footer_follow_content .row .btn-default{
+    font-size: 16px;
+    color: white;
+    background-color: #01afc7;
+}
+
+footer .footer_follow .footer_follow_content .row .btn-default:hover{
+    border-color: red;
+    color: red;
+}
+
+footer .footer_follow .footer_follow_content ul{
+    margin-top: 20px;
+}
+
+footer .footer_follow .footer_follow_content ul li{
+    width: 38px;
+    height: 38px;
+    float: left;
+}
+
+footer .footer_follow .footer_follow_content .footer_follow_content_clear{
+    clear: both;
+}
+
+footer .footer_payment{
+    width: 278px;
+    height: inherit;
+    /*border: 1px solid #01afc7;*/
+    float: left;
+}
+
+footer .footer_payment .footer_payment_content{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+footer .footer_payment .footer_payment_content ul li{
+    float: left;
+    margin: 7px 20px;
+}
+/*footer区域结束*/
